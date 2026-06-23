@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Age Calculator</title>
+  <link rel="icon" type="image/png" href="/Age-Calculator/assets/favicon-32x32-DQjEQYWa.png">
+  <script type="module" crossorigin src="/Age-Calculator/assets/index-Bsex0Zz8.js"></script>
+  <link rel="stylesheet" crossorigin href="/Age-Calculator/assets/index-W_hXQPHY.css">
+</head>
+
+<body>
+  <div class="container">
+    <main class="content">
+      <form class="content-from">
+        <div class="content-form__top">
+          <div class="content-form__container">
+            <label class="content-form__label" id="dayLabel">DAY</label>
+            <input type="text" placeholder="DD" class="content-form__input" id="day" autocomplete="off">
+            <span class="content-from__error" id="dayErr">This field is required</span>
+          </div>
+          <div class="content-form__container">
+            <label class="content-form__label" id="monthLabel">MONTH</label>
+            <input type="text" placeholder="MM" class="content-form__input" id="month" autocomplete="off">
+            <span class="content-from__error" id="monthErr">This field is required</span>
+          </div>
+          <div class="content-form__container">
+            <label class="content-form__label" id="yearLabel">YEAR</label>
+            <input type="text" placeholder="YYYY" class="content-form__input" id="year" autocomplete="off">
+            <span class="content-from__error" id="yearErr">This field is required</span>
+          </div>
+        </div>
+        <div class="content-form__bottom">
+
+          <span class="content-form__border"></span>
+          <button type="submit" class="content-form__btn">
+            <svg viewBox="0 0 46 44">
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div class="content-dates">
+        <p class="content-dates__date">
+          <span id="yearValue">--</span>
+          years
+        </p>
+        <p class="content-dates__date">
+          <span id="monthValue">--</span>
+          months
+        </p>
+        <p class="content-dates__date">
+          <span id="dayValue">--</span>
+          days
+        </p>
+      </div>
+    </main>
+  </div>
+
+
+</body>
+
+</html>
