@@ -4,8 +4,8 @@
 
 ![Project Banner](public/assets/images/preview.jpg)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-مشاهده%20سایت-brightgreen?style=for-the-badge)](https://arvin-m-dev.github.io/Age-Calculator/)
-[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-چالش-blue?style=for-the-badge)](https://www.frontendmentor.io)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View%20Site-brightgreen?style=for-the-badge)](https://arvin-m-dev.github.io/Age-Calculator/)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-blue?style=for-the-badge)](https://www.frontendmentor.io)
 
 </div>
 
