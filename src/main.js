@@ -24,9 +24,9 @@ form.addEventListener("submit", (event) => {
 
 // ======================== Validate Date ========================
 function validateDate(day, month, year) {
-  let numDay = Number(day);
-  let numMonth = Number(month);
-  let numYear = Number(year);
+  const numDay = Number(day);
+  const numMonth = Number(month);
+  const numYear = Number(year);
   let hasError = false;
 
   // ======================== Day Validation ========================
