@@ -278,9 +278,6 @@ body {
   border-bottom-right-radius: 20rem;
 }
 
-.content-from {
-}
-
 .content-form__top {
   display: flex;
   align-items: center;
@@ -296,7 +293,7 @@ body {
 }
 
 .content-form__label {
-  font-family: "Poppins Bold";
+  font-family: "Poppins Bold", sans-serif;
   letter-spacing: 4px;
   font-size: 1.4rem;
   color: var(--Gray-500);
@@ -311,7 +308,7 @@ body {
   border: 1px solid var(--Gray-200);
   border-radius: 8px;
   font-size: 3.2rem;
-  font-family: "Poppins Bold";
+  font-family: "Poppins Bold", sans-serif;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -327,7 +324,7 @@ body {
   opacity: 0;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--color-second);
-  font-family: "Poppins Italic";
+  font-family: "Poppins Italic", sans-serif;
   font-size: 1.4rem;
 }
 
@@ -371,7 +368,7 @@ body {
 
 .content-dates__date {
   font-size: 10.4rem;
-  font-family: "Poppins ExtraBoldItalic";
+  font-family: "Poppins ExtraBoldItalic", sans-serif;
   line-height: 1.1;
 }
 
