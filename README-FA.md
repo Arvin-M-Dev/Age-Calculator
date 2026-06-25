@@ -50,14 +50,14 @@
 
 **الگوریتم محاسبه تاریخ:**
 ```
-روز = روز فعلی - روز تولد
-اگر (روز < 0) {
-  روز += روز‌های ماه قبل
-  ماه--
+current_day - birth_day = days
+if (days < 0) {
+  days += daysInPreviousMonth
+  months--
 }
-اگر (ماه < 0) {
-  ماه += 12
-  سال--
+if (months < 0) {
+  months += 12
+  years--
 }
 ```
 
