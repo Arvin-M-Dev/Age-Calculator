@@ -56,7 +56,7 @@ function validateDate(day, month, year) {
   }
 
   // ======================== Year Validation ========================
-  let currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   if (year.trim() === "" || isNaN(year) || numYear <= 0) {
     hasError = true;
@@ -149,11 +149,11 @@ function isValidDate(day, month, year) {
 
 // ======================== Calculate Age ========================
 function calculateAge(day, month, year) {
-  let currentDate = new Date();
+  const currentDate = new Date();
 
-  let currentYear = currentDate.getFullYear();
-  let currentMonth = currentDate.getMonth() + 1;
-  let currentDay = currentDate.getDate();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth() + 1;
+  const currentDay = currentDate.getDate();
 
   let days = currentDay - day;
   let months = currentMonth - month;
